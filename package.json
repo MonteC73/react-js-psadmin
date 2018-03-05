@@ -1,31 +1,28 @@
 {
   "name": "psadmin",
   "version": "1.0.0",
-  "description": "��#\u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000j\u0000s\u0000-\u0000p\u0000s\u0000a\u0000d\u0000m\u0000i\u0000n\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MonteC",
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.5",
     "browserify": "^11.0.1",
-    "gulp": "^3.9.1",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.15.0",
     "gulp-open": "^1.0.0",
     "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
     "reactify": "^1.1.1",
+    "toastr": "2.1.0",
     "vinyl-source-stream": "^1.1.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MonteC73/react-js-psadmin.git"
-  },
-  "author": "Jarek U",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MonteC73/react-js-psadmin/issues"
-  },
-  "homepage": "https://github.com/MonteC73/react-js-psadmin#readme"
+  }
 }
