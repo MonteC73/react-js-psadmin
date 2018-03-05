@@ -4,9 +4,15 @@
   "description": "��#\u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000j\u0000s\u0000-\u0000p\u0000s\u0000a\u0000d\u0000m\u0000i\u0000n\u0000\r\u0000 \u0000",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^3.3.5",
+    "browserify": "^11.0.1",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.2.0",
-    "gulp-open": "^1.0.0"
+    "gulp-open": "^1.0.0",
+    "jquery": "^2.1.4",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
